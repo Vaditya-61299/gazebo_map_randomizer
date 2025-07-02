@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="obstacle_2">
+    <static>true</static>
+    <link name="link">
+      <!-- No pose here, world file handles model pose -->
+
+      <collision name="collision">
+        <pose>0 0 0 0 0 0</pose>  <!-- Offset if mesh is misaligned -->
+        <geometry>
+          <mesh>
+            <scale>0.57 1.4 1.05</scale>
+            <uri>model://obstacle_2/meshes/arm.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <pose>0 0 0 0 0 0</pose>  <!-- Offset if mesh is misaligned -->
+        <geometry>
+          <mesh>
+            <scale>0.57 1.4 1.05</scale>
+            <uri>model://obstacle_2/meshes/arm.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

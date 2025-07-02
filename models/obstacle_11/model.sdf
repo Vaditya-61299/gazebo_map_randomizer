@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="obstacle_11">
+    <static>true</static>
+    <link name="link">
+      <!-- No pose here, world file handles model pose -->
+
+      <collision name="collision">
+        <pose>0 0 0 0 0 0</pose>  <!-- Offset if mesh is misaligned -->
+        <geometry>
+          <mesh>
+            <scale>0.73 0.97 0.59</scale>
+            <uri>model://obstacle_11/meshes/cinder_block.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <pose>0 0 0 0 0 0</pose>  <!-- Offset if mesh is misaligned -->
+        <geometry>
+          <mesh>
+            <scale>0.73 0.97 0.59</scale>
+            <uri>model://obstacle_11/meshes/cinder_block.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

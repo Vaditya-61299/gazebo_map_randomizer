@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <include><uri>model://ground_plane</uri></include>
+    <include><uri>model://sun</uri></include>
+    <include>
+      <uri>model://outer_top</uri>
+      <pose>0.0 10.1 0.0</pose>
+    </include>
+    <include>
+      <uri>model://outer_bottom</uri>
+      <pose>0.0 -10.1 0.0</pose>
+    </include>
+    <include>
+      <uri>model://outer_left</uri>
+      <pose>-10.1 0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://outer_right</uri>
+      <pose>10.1 0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_0_wall_top</uri>
+      <pose>-6.28 0.11500000000000021 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_0_wall_bottom</uri>
+      <pose>-6.28 -4.875 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_0_wall_right</uri>
+      <pose>-3.415 -2.38 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_1_wall_top</uri>
+      <pose>-6.68 8.15 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_1_wall_bottom</uri>
+      <pose>-6.68 2.49 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_1_wall_left</uri>
+      <pose>-8.745 5.32 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_2_wall_top</uri>
+      <pose>-3.23 7.545 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_2_wall_left</uri>
+      <pose>-5.725 5.42 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_2_wall_right</uri>
+      <pose>-0.7349999999999999 5.42 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_3_wall_bottom</uri>
+      <pose>-2.62 -0.42999999999999994 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_3_wall_left</uri>
+      <pose>-4.52 1.36 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_3_wall_right</uri>
+      <pose>-0.7200000000000002 1.36 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_4_wall_top</uri>
+      <pose>-5.38 9.455 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_4_wall_bottom</uri>
+      <pose>-5.38 6.244999999999999 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_4_wall_left</uri>
+      <pose>-7.449999999999999 7.85 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_5_wall_top</uri>
+      <pose>2.27 8.635 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_5_wall_bottom</uri>
+      <pose>2.27 4.645 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room_5_wall_left</uri>
+      <pose>0.72 6.64 0.0</pose>
+    </include>
+  </world>
+</sdf>

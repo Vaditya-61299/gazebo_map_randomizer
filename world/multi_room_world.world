@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <include><uri>model://ground_plane</uri></include>
+    <include><uri>model://sun</uri></include>
+    <include>
+      <uri>model://outer_top</uri>
+      <pose>0 10.1 0.0</pose>
+    </include>
+    <include>
+      <uri>model://outer_bottom</uri>
+      <pose>0 -10.1 0.0</pose>
+    </include>
+    <include>
+      <uri>model://outer_left</uri>
+      <pose>-10.1 0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://outer_right</uri>
+      <pose>10.1 0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room1_wall1</uri>
+      <pose>-8.5 -6 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room1_wall2</uri>
+      <pose>-7 2.5 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room2_wall1</uri>
+      <pose>8.0 1 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room2_wall2</uri>
+      <pose>6 6.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room3_wall1</uri>
+      <pose>-1 7.5 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room3_wall2</uri>
+      <pose>5.0 5 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room4_wall1</uri>
+      <pose>-1 -8.5 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room4_wall2</uri>
+      <pose>5.0 -7 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room5_wall1</uri>
+      <pose>-7.5 9 0.0</pose>
+    </include>
+    <include>
+      <uri>model://room5_wall2</uri>
+      <pose>-5 10.0 0.0</pose>
+    </include>
+  </world>
+</sdf>

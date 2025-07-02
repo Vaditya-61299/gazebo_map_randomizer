@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+
+    <!-- Basic ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Light -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://obstacle_0</uri>
+      <pose>7.93 6.12 0.0 0.0 0.0 5.404</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_1</uri>
+      <pose>7.37 6.27 0.0 0.0 0.0 0.774</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_2</uri>
+      <pose>-7.68 -3.23 0.0 0.0 0.0 2.651</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_3</uri>
+      <pose>7.52 1.48 0.0 0.0 0.0 2.72</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_4</uri>
+      <pose>6.13 6.94 0.0 0.0 0.0 0.019</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_5</uri>
+      <pose>7.54 -1.42 0.0 0.0 0.0 3.179</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_6</uri>
+      <pose>3.69 6.16 0.0 0.0 0.0 3.239</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_7</uri>
+      <pose>3.82 1.01 0.0 0.0 0.0 4.126</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_8</uri>
+      <pose>0.11 -3.04 0.0 0.0 0.0 4.671</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_9</uri>
+      <pose>4.7 -2.02 0.0 0.0 0.0 0.333</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_10</uri>
+      <pose>-0.73 -2.04 0.0 0.0 0.0 3.715</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_11</uri>
+      <pose>-1.99 -2.6 0.0 0.0 0.0 1.722</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_12</uri>
+      <pose>-5.14 3.74 0.0 0.0 0.0 3.327</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_13</uri>
+      <pose>6.32 -7.74 0.0 0.0 0.0 0.585</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_14</uri>
+      <pose>2.23 -5.62 0.0 0.0 0.0 1.232</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_15</uri>
+      <pose>4.08 3.29 0.0 0.0 0.0 2.394</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_16</uri>
+      <pose>1.35 -5.27 0.0 0.0 0.0 0.232</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_17</uri>
+      <pose>3.81 -2.82 0.0 0.0 0.0 0.152</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_18</uri>
+      <pose>-2.61 0.52 0.0 0.0 0.0 5.159</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_19</uri>
+      <pose>2.86 -6.56 0.0 0.0 0.0 5.347</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_20</uri>
+      <pose>5.49 -5.24 0.0 0.0 0.0 3.926</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_21</uri>
+      <pose>3.61 3.7 0.0 0.0 0.0 1.042</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_22</uri>
+      <pose>3.86 -2.79 0.0 0.0 0.0 2.894</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_23</uri>
+      <pose>-6.85 -4.66 0.0 0.0 0.0 4.261</pose>
+    </include>
+    <include>
+      <uri>model://obstacle_24</uri>
+      <pose>-0.79 -5.52 0.0 0.0 0.0 5.778</pose>
+    </include>
+  </world>
+</sdf>
